@@ -82,7 +82,6 @@ function getPokemonImages() {
 
     activeSheet.getRange(topCellLocation[0] + i, topCellLocation[1] + 1).setValue("=IMAGE(\"" + response.sprites.front_default + "\")");
   }
-activeSheet.setRowHeights(topCellLocation[0],activeList.length,60)
 
 }
 
@@ -158,11 +157,7 @@ function getPokemonTypes() {
     }
   }
 
-for (var resize=0;resize<2;resize++) {
-  resize = Number(resize)
-  activeSheet.setColumnWidth(topCellLocation[1]+resize+1,40)
   }
-activeSheet.setRowHeights(topCellLocation[0],activeList.length,60)
 
 }
 
