@@ -29,7 +29,7 @@ Inserts 1-2 images of the given pokemon's types in the column/s to the right of 
 ### Get pokemon weakness/resists - WARNING WORK IN PROGRESS/BAD
 Gets a tally of each pokemon's weaknesses and resists, additionally inserts a summary of all selected pokemon's weaknesses/resists to see common types for each.
 
-###
+### Other info
 
 To use any of the functions simply select the pokemon you want (they must be in a column) and select the function you want in the "Pokemon" menu in the toolbar
 
